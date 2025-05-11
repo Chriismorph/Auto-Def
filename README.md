@@ -4,7 +4,7 @@ local Params = {
 	RepoURL = "https://raw.githubusercontent.com/Chriismorph/Robloxer/refs/heads/main/",
 	SSI = "main"
 }
-local Config = { -- doesnt work yet but you can leave this for when i make it workable.
+local Config = { -- doesnt work yet but you can leave this for when i do it.
 	Keybinds = {
 		Hide = Enum.KeyCode.RightControl, -- to hide the gui
 		Toggle = Enum.KeyCode.Backspace -- to toggle the script
