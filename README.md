@@ -45,5 +45,5 @@ to get banned without an goal but annoy people.
 > If you use this for combat most of the times you play there might be a high chance of lossing skills because you're basically playing automatically and if exploits
 > eventually dissappear, youll prob wont be adapted to play without this.
 
-This script works in executors like [Xeno](https://discord.gg/xeno-now)
+This script works in executors like [Xeno](https://discord.gg/xeno-now) or in many others such as [KRNL](https://discord.gg/getkrnl)
 - for sarkrinth if he ever reads this!!1!!
