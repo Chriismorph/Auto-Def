@@ -4,8 +4,6 @@ local Params = {
 	RepoURL = "https://raw.githubusercontent.com/Chriismorph/Robloxer/refs/heads/main/",
 	SSI = "main"
 }
-
-local AutoDefenseScript = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
 local Config = {
 	Keybinds = {
 		Hide = Enum.KeyCode.RightControl, -- Key to toggle the visibility of the script UI
@@ -22,7 +20,7 @@ local Config = {
 	SCRIPT_NAME = "HelloWord123" -- The name of the UI ScreenGui. You can change it, but it must be unique to avoid conflicts.
 }
 
-
+local AutoDefenseScript = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
 AutoDefenseScript(Config)
 ```
 
