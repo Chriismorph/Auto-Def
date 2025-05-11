@@ -1,5 +1,5 @@
 Robloxer is a script for Roblox that enhances your gameplay experience without modifying in-game sources. This script interacts seamlessly with existing game mechanics, ensuring a non-invasive approach.
-This script does an sort of "macro-ing" which i didnt made on purpose. (might change to follow game rules) and simply uses your attacks on scenarios that you may cannot act quickly fairly.
+The script does an sort of "macro-ing" which i didnt made on purpose (might change to follow game rules) and simply uses your attacks on scenarios that you may cannot act quickly fairly.
 
 To run the script, use the following Lua code in a Roblox environment (e.g., via an executor):
 
