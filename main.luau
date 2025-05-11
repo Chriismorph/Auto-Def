@@ -12,7 +12,7 @@ export type ConfigData = {
 	SCRIPT_NAME :string
 }
 
-return function(Config :ConfigData)
+return function(Config :ConfigData) :()
 	local Players = game:GetService("Players")
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	local RunService = game:GetService("RunService")
