@@ -17,3 +17,5 @@ loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".lua", true), Params.SS
 
 This script is intended for educational and personal use. Always respect Roblox’s Terms of Service and game developers’ rules. 
 Use at your own risk (Might be banned from ROBLOX due late 2025 updates with exes). And you MIGHT lose skills if you use this constantly.
+
+- for sarkrinth if he ever reads this!!1!!
