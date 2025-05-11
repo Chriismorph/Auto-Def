@@ -14,7 +14,7 @@ script made for the game are kinda lame, cost money or serves no point to use fl
 to get banned without an goal but annoy people.
 
 Soon i'll add an options parameter (similar to params in the loadstring) to adjust
-the repo config.
+the raw script config.
 
 > [!WARNING]  
 > Use this at your own risk. As you might get **BANNED** from roblox if you use
