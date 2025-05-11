@@ -21,7 +21,7 @@ to get banned without an goal but annoy people.
 > [!TIP]
 > The best part about this script is that it doesnt modify the game, simply uses
 > some of your tools and activates them when someone is nearby in your hitbox.
-> The only "evil" part of this script is the fact it does an sort of macro. But if thats
+> The only `evil` part of this script is the fact it does an sort of macro. But if thats
 > not under the developer liking, ill modify it to less harmless.
 
 > [!CAUTION]
