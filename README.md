@@ -9,12 +9,19 @@ loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.S
 ```
 
 # Robloxer
-I've made this script for educational but not personal use. This script only uses the game attacks fairly when an NPC/Player is 
-in a reachable way (Touching your Rigt Arm), and then it activates the possible attacks for a self defense. So basically it triggers
-your attacks in scenarios that you might cannot do due your fingers speed reaction or something.
+I've made this script for educational but not personal use because, every
+script made for the game are kinda lame or serves no point to use fly or range just
+to get banned without an goal but annoy people.
 
 > [!WARNING]  
 > Use this at your own risk. As you might get BANNED from roblox if you use
 > EXPLOITS. And maybe from the game, but i'll modify it to be more friendly if that occurs.
+
+> [!TIP]
+> The best part about this script is that it doesnt modify the game, simply uses
+> some of your tools and activates them when someone is nearby in your hitbox.
+> The only "evil" part of this script is the fact it does an sort of macro. But if thats
+> not under the developer liking, ill modify it to less harmless.
+
 
 - for sarkrinth if he ever reads this!!1!!
