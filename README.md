@@ -8,20 +8,20 @@ local Params = {
 local AutoDefenseScript = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
 local Config = {
 	Keybinds = {
-		Hide = Enum.KeyCode.RightControl, -- to hide the gui
-		Toggle = Enum.KeyCode.Backspace -- to toggle the script
+		Hide = Enum.KeyCode.RightControl, -- Key to toggle the visibility of the script UI
+		Toggle = Enum.KeyCode.Backspace -- Key to enable or disable the auto defense script
 	},
-	TOOLS_TO_FIND = { -- not recommended to use kick or bat.
+	TOOLS_TO_FIND = { -- List of tool names the script will detect and use. Avoid adding "Kick" or "Baseball Bat" for better stability.
 		"Punch",
 		"Haymaker",
 		"Uppercut",
 	},
-	Hitbox = { -- the range detection. Doesnt give you range, simply its the hitbox of your armm
-		Size = Vector3.new(2, 2.2, 2),
+	Hitbox = {
+		Size = Vector3.new(2, 2.2, 2), -- The detection box around your arm. Increasing this size may trigger attacks from farther away.
 	},
-	SCRIPT_NAME = "HelloWord123" -- name it as your liking
-	
+	SCRIPT_NAME = "HelloWord123" -- The name of the UI ScreenGui. You can change it, but it must be unique to avoid conflicts.
 }
+
 
 AutoDefenseScript(Config)
 ```
