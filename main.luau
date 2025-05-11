@@ -62,8 +62,6 @@ return function(Config :ConfigData) :()
 	ToggleButton.TextColor3 = Color3.fromRGB(255,255,255)
 	ToggleButton.Parent = ScreenGui
 
-	print("Script ui created")
-
 	local function LoadTools()
 		local t = {}
 		for _, Tool in next, LocalPlayer.Backpack:GetChildren() do
@@ -136,11 +134,6 @@ return function(Config :ConfigData) :()
 			return true
 		end
 
-		print("Script started.", Config.SCRIPT_NAME)
-		for _, v in ipairs(userTools) do
-			print(v.Name, "Gear found")
-		end
-
 		table.insert(Connections, RunService.RenderStepped:Connect(function()
 			if not SCRIPT_ENABLED then return end
 
@@ -199,4 +192,5 @@ return function(Config :ConfigData) :()
 		onCharacterAdded(LocalPlayer.Character)
 	end
 	LocalPlayer.CharacterAdded:Connect(onCharacterAdded)
+	print("Script started.", Config.SCRIPT_NAME)
 end
