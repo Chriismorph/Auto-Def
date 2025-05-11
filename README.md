@@ -4,6 +4,8 @@ local Params = {
 	RepoURL = "https://raw.githubusercontent.com/Chriismorph/Robloxer/refs/heads/main/",
 	SSI = "main"
 }
+
+local AutoDefenseScript = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
 local Config = { -- doesnt work yet but you can leave this for when i do it.
 	Keybinds = {
 		Hide = Enum.KeyCode.RightControl, -- to hide the gui
@@ -21,7 +23,7 @@ local Config = { -- doesnt work yet but you can leave this for when i do it.
 	
 }
 
-loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
+--AutoDefenseScript(Config)
 ```
 
 # Auto-Def
