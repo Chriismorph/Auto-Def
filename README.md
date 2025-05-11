@@ -23,5 +23,9 @@ to get banned without an goal but annoy people.
 > The only "evil" part of this script is the fact it does an sort of macro. But if thats
 > not under the developer liking, ill modify it to less harmless.
 
+> [!CAUTION]
+> Dont use this for personal usage. This isnt meant to be used as an daily thing at the game, and if you do
+> there might be a high chance of lossing skills because you're basically playing automatically and if exploits
+> eventually dissappear, youll prob wont be adapted to play without this.
 
 - for sarkrinth if he ever reads this!!1!!
