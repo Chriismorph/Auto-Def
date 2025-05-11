@@ -13,6 +13,9 @@ I've made this script for educational but not personal use because, every
 script made for the game are kinda lame, cost money or serves no point to use fly or range just
 to get banned without an goal but annoy people.
 
+Soon i'll add an options parameter (similar to params in the loadstring) to adjust
+the repo config.
+
 > [!WARNING]  
 > Use this at your own risk. As you might get **BANNED** from roblox if you use
 > Exploits. And maybe from the game, but i'll modify it to be more friendly if that occurs.
