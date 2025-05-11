@@ -10,7 +10,7 @@ loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.S
 
 # Robloxer
 I've made this script for educational but not personal use because, every
-script made for the game are kinda lame or serves no point to use fly or range just
+script made for the game are kinda lame, cost money or serves no point to use fly or range just
 to get banned without an goal but annoy people.
 
 > [!WARNING]  
