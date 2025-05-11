@@ -3,13 +3,13 @@ The script does an sort of "macro-ing" which i didnt made on purpose (might chan
 
 To run the script, use the following Lua code in a Roblox environment (e.g., via an executor):
 
-```lua
+```luau
 local Params = {
 	RepoURL = "https://raw.githubusercontent.com/Chriismorph/Robloxer/refs/heads/main/",
 	SSI = "main"
 }
 
-loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".lua", true), Params.SSI)()
+loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
 ```
 
 "Feel free to fork this repository"
