@@ -14,7 +14,7 @@ loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".lua", true), Params.SS
 
 "Feel free to fork this repository"
 
-This script is intended for educational and personal use. Always respect Roblox’s Terms of Service and game developers’ rules. 
+This script is intended for educational and personal use. Always respect Roblox’s Terms of Service and game developer’ rules. 
 Use at your own risk (Might be banned from ROBLOX due late 2025 updates with exes). And you MIGHT lose skills if you use this constantly.
 
 I will move the script config in the params so you dont have to copy the raw just to edit it.
