@@ -16,6 +16,7 @@ to get banned without an goal but annoy people.
 > [!WARNING]  
 > Use this at your own risk. As you might get BANNED from roblox if you use
 > EXPLOITS. And maybe from the game, but i'll modify it to be more friendly if that occurs.
+> * And if you ask, Yes you can modify this repository source code
 
 > [!TIP]
 > The best part about this script is that it doesnt modify the game, simply uses
