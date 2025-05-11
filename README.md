@@ -6,7 +6,7 @@ local Params = {
 }
 
 local AutoDefenseScript = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
-local Config = { -- doesnt work yet but you can leave this for when i do it.
+local Config = {
 	Keybinds = {
 		Hide = Enum.KeyCode.RightControl, -- to hide the gui
 		Toggle = Enum.KeyCode.Backspace -- to toggle the script
@@ -19,11 +19,11 @@ local Config = { -- doesnt work yet but you can leave this for when i do it.
 	Hitbox = { -- the range detection. Doesnt give you range, simply its the hitbox of your armm
 		Size = Vector3.new(2, 2.2, 2),
 	},
-	SCRIPT_NAME = "RBGDevProduct" -- name it as your liking
+	SCRIPT_NAME = "HelloWord123" -- name it as your liking
 	
 }
 
---AutoDefenseScript(Config)
+AutoDefenseScript(Config)
 ```
 
 # Auto-Def
