@@ -4,6 +4,22 @@ local Params = {
 	RepoURL = "https://raw.githubusercontent.com/Chriismorph/Robloxer/refs/heads/main/",
 	SSI = "main"
 }
+local Config = { -- doesnt work yet but you can leave this for when i make it workable.
+	Keybinds = {
+		Hide = Enum.KeyCode.RightControl, -- to hide the gui
+		Toggle = Enum.KeyCode.Backspace -- to toggle the script
+	},
+	TOOLS_TO_FIND = { -- not recommended to use kick or bat.
+		"Punch",
+		"Haymaker",
+		"Uppercut",
+	},
+	Hitbox = { -- the range detection. Doesnt give you range, simply its the hitbox of your armm
+		Size = Vector3.new(2, 2.2, 2),
+	},
+	SCRIPT_NAME = "RBGDevProduct" -- name it as your liking
+	
+}
 
 loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
 ```
