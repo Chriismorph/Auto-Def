@@ -1,7 +1,7 @@
 # Loadstring
 ```luau
 local Params = {
-	RepoURL = "https://raw.githubusercontent.com/Chriismorph/Robloxer/refs/heads/main/",
+	RepoURL = "https://raw.githubusercontent.com/Chriismorph/Auto-Def/refs/heads/main/",
 	SSI = "main"
 }
 local Config = {
